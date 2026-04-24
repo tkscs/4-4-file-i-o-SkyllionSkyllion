@@ -14,6 +14,8 @@ image = """
 
 ####
 #### YOUR CODE HERE 
+with open("hello.html", "w") as f:
+    f.write(webpage)
 ####
 
 
@@ -22,5 +24,7 @@ image = """
 
 ####
 #### YOUR CODE HERE 
+with open ("star.svg", "w") as f:
+    f.write(image)
 ####
 
